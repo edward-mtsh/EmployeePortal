@@ -10,6 +10,16 @@
 		3E74D13DCBC5FF7A48F7E940 /* Pods_EmployeePortal__EmployeePortal_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F24A2AB1C4054B04C4B170 /* Pods_EmployeePortal__EmployeePortal_UITests.framework */; };
 		4152FC72EAE6F80E13A0AABE /* Pods_EmployeePortal_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C57A9611F1E1E498FB9941 /* Pods_EmployeePortal_Tests.framework */; };
 		4AA4E6896A3ED73C0791786B /* Pods_EmployeePortal_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076BD60BFCF671515CC7B0A6 /* Pods_EmployeePortal_.framework */; };
+		643C6DB92B7600ED0021C3B6 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB12B7600ED0021C3B6 /* LoginViewControllerTests.swift */; };
+		643C6DBA2B7600ED0021C3B6 /* LoginInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB22B7600ED0021C3B6 /* LoginInteractorTests.swift */; };
+		643C6DBB2B7600ED0021C3B6 /* MockLoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB32B7600ED0021C3B6 /* MockLoginPresenter.swift */; };
+		643C6DBC2B7600ED0021C3B6 /* MockLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB42B7600ED0021C3B6 /* MockLoginViewController.swift */; };
+		643C6DBD2B7600ED0021C3B6 /* MockLoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB52B7600ED0021C3B6 /* MockLoginInteractor.swift */; };
+		643C6DBE2B7600ED0021C3B6 /* LoginRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB62B7600ED0021C3B6 /* LoginRouterTests.swift */; };
+		643C6DBF2B7600ED0021C3B6 /* LoginPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB72B7600ED0021C3B6 /* LoginPresenterTests.swift */; };
+		643C6DC02B7600ED0021C3B6 /* MockLoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DB82B7600ED0021C3B6 /* MockLoginRouter.swift */; };
+		643C6DC22B7601840021C3B6 /* MockEmailAddressValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DC12B7601840021C3B6 /* MockEmailAddressValidator.swift */; };
+		643C6DC52B7604770021C3B6 /* MockNetworkKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C6DC42B7604770021C3B6 /* MockNetworkKit.swift */; };
 		649E63982B74C3A700DF6B7B /* AdditionalInformationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E63962B74C3A700DF6B7B /* AdditionalInformationCollectionViewCell.swift */; };
 		649E63992B74C3A700DF6B7B /* AdditionalInformationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649E63972B74C3A700DF6B7B /* AdditionalInformationCollectionViewCell.xib */; };
 		649E639C2B74CB6100DF6B7B /* AdditionalInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649E639B2B74CB6100DF6B7B /* AdditionalInformationViewModel.swift */; };
@@ -127,6 +137,16 @@
 		187B2665D21A7D141DFA10E3 /* Pods-EmployeePortal.Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeePortal.Tests.release.xcconfig"; path = "Target Support Files/Pods-EmployeePortal.Tests/Pods-EmployeePortal.Tests.release.xcconfig"; sourceTree = "<group>"; };
 		546D016CBC6C6F6F0AEF0B0E /* Pods-EmployeePortal.Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeePortal.Tests.debug.xcconfig"; path = "Target Support Files/Pods-EmployeePortal.Tests/Pods-EmployeePortal.Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58F24A2AB1C4054B04C4B170 /* Pods_EmployeePortal__EmployeePortal_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmployeePortal__EmployeePortal_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643C6DB12B7600ED0021C3B6 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		643C6DB22B7600ED0021C3B6 /* LoginInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorTests.swift; sourceTree = "<group>"; };
+		643C6DB32B7600ED0021C3B6 /* MockLoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginPresenter.swift; sourceTree = "<group>"; };
+		643C6DB42B7600ED0021C3B6 /* MockLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginViewController.swift; sourceTree = "<group>"; };
+		643C6DB52B7600ED0021C3B6 /* MockLoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginInteractor.swift; sourceTree = "<group>"; };
+		643C6DB62B7600ED0021C3B6 /* LoginRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterTests.swift; sourceTree = "<group>"; };
+		643C6DB72B7600ED0021C3B6 /* LoginPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTests.swift; sourceTree = "<group>"; };
+		643C6DB82B7600ED0021C3B6 /* MockLoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoginRouter.swift; sourceTree = "<group>"; };
+		643C6DC12B7601840021C3B6 /* MockEmailAddressValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEmailAddressValidator.swift; sourceTree = "<group>"; };
+		643C6DC42B7604770021C3B6 /* MockNetworkKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkKit.swift; sourceTree = "<group>"; };
 		649E63962B74C3A700DF6B7B /* AdditionalInformationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationCollectionViewCell.swift; sourceTree = "<group>"; };
 		649E63972B74C3A700DF6B7B /* AdditionalInformationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionalInformationCollectionViewCell.xib; sourceTree = "<group>"; };
 		649E639B2B74CB6100DF6B7B /* AdditionalInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationViewModel.swift; sourceTree = "<group>"; };
@@ -255,6 +275,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		643C6DB02B7600D80021C3B6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				643C6DB12B7600ED0021C3B6 /* LoginViewControllerTests.swift */,
+				643C6DB22B7600ED0021C3B6 /* LoginInteractorTests.swift */,
+				643C6DB32B7600ED0021C3B6 /* MockLoginPresenter.swift */,
+				643C6DB42B7600ED0021C3B6 /* MockLoginViewController.swift */,
+				643C6DB52B7600ED0021C3B6 /* MockLoginInteractor.swift */,
+				643C6DB62B7600ED0021C3B6 /* LoginRouterTests.swift */,
+				643C6DB72B7600ED0021C3B6 /* LoginPresenterTests.swift */,
+				643C6DB82B7600ED0021C3B6 /* MockLoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		643C6DC32B7604560021C3B6 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				643C6DC12B7601840021C3B6 /* MockEmailAddressValidator.swift */,
+				643C6DC42B7604770021C3B6 /* MockNetworkKit.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		649E63952B74C38B00DF6B7B /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +478,8 @@
 		64B101852B6FA0DD00CF5BCA /* EmployeePortal.Tests */ = {
 			isa = PBXGroup;
 			children = (
+				643C6DC32B7604560021C3B6 /* Mock */,
+				643C6DB02B7600D80021C3B6 /* Login */,
 				64B101862B6FA0DD00CF5BCA /* EmployeePortal_Tests.swift */,
 			);
 			path = EmployeePortal.Tests;
@@ -956,7 +1002,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				643C6DBF2B7600ED0021C3B6 /* LoginPresenterTests.swift in Sources */,
+				643C6DB92B7600ED0021C3B6 /* LoginViewControllerTests.swift in Sources */,
+				643C6DBA2B7600ED0021C3B6 /* LoginInteractorTests.swift in Sources */,
+				643C6DBC2B7600ED0021C3B6 /* MockLoginViewController.swift in Sources */,
+				643C6DC52B7604770021C3B6 /* MockNetworkKit.swift in Sources */,
+				643C6DBB2B7600ED0021C3B6 /* MockLoginPresenter.swift in Sources */,
+				643C6DC02B7600ED0021C3B6 /* MockLoginRouter.swift in Sources */,
+				643C6DC22B7601840021C3B6 /* MockEmailAddressValidator.swift in Sources */,
+				643C6DBD2B7600ED0021C3B6 /* MockLoginInteractor.swift in Sources */,
 				64B101872B6FA0DD00CF5BCA /* EmployeePortal_Tests.swift in Sources */,
+				643C6DBE2B7600ED0021C3B6 /* LoginRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
