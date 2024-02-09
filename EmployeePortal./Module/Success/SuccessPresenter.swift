@@ -45,7 +45,7 @@ extension SuccessPresenter: SuccessInteractorOutputProtocol {
 
 private extension SuccessPresenter {
     func makeSections() -> [CollectionViewSection] {
-        let message = "Congratulations you have successfully updated personal details and additional details for \(employee.firstName ?? "") \(employee.lastName ?? "") on \(employee.createAt ?? "")"
+        let message = "Congratulations you have successfully updated personal details and additional details for \(employee.firstName ?? "") \(employee.lastName ?? "") on \(formatDate(employee.createAt ?? "", formart: "dd MMMM yyyy")) at \(formatDate(employee.createAt ?? "", formart: "HH:mm"))"
         let section = CollectionViewSection(
             title: "",
             items: [
@@ -57,5 +57,19 @@ private extension SuccessPresenter {
 
         sections.append(section)
         return sections
+    }
+
+    func formatDate(_ dateString: String, formart: String) -> String {
+        let dateFormatterGet = DateFormatter()
+        dateFormatterGet.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+
+        let dateFormatterPrint = DateFormatter()
+        dateFormatterPrint.dateFormat = formart
+
+        if let date = dateFormatterGet.date(from: dateString) {
+            return dateFormatterPrint.string(from: date)
+        } else {
+           return ""
+        }
     }
 }
